@@ -18,14 +18,17 @@ Selector:"h4 .charge"
 
 ### Location
 Inside of Selector:"dl .summary-table"
+
 Inside dd tag after dt tag containing "Location"
 
 ### Sponsors
 Inside of Selector:"dl .summary-table"
+
 Inside dd tag after dt tag containing "Sponsor(s)"
 
 ### Full status
 Inside table Selector:"#bill-detailed-status-table"
+
 "FULL STATUS" is 4th column
 
 ### URL
