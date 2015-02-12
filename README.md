@@ -53,3 +53,11 @@ Read First Time and Referred to the Committee on General, Housing & Military Aff
 
 http://legislature.vermont.gov/bill/status/2016/H.159
 ```
+## Python Libraries planned to use
+
+Parsing arguments: https://docs.python.org/2/library/argparse.html
+
+Fetching Webpage: https://docs.python.org/2/library/urllib.html
+
+Parsing HTML: http://www.crummy.com/software/BeautifulSoup/
+
