@@ -42,6 +42,13 @@ sponsors_dt = summary_table.find("dt", text="Sponsor(s)")
 print sponsors_dt.string
 # Go over two tags to find sponsors contents
 sponsors_dd = sponsors_dt.next_sibling.next_sibling
-#Iterate over list of sponsors and print
+# Iterate over list of sponsors and print
 for li in sponsors_dd.find_all("li"):
 	print li.string
+print
+
+# Detailed status table contains the FULL STATUS information
+detailed_status_table = main_content.select("#bill-detailed-status-table")[0]
+# FULL STATUS is the fourth column of table
+full_status_td = detailed_status_table.find_all("td")[3]
+print " ".join(full_status_td.stripped_strings)
