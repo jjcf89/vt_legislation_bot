@@ -36,7 +36,7 @@ summary_table = main_content.select(".summary-table")[0]
 
 # Grab location header and print
 location_dt = summary_table.find("dt", text="Location")
-print location_dt.string
+print location_dt.string + ":"
 # Go over two tags to find location contents
 location_dd = location_dt.next_sibling.next_sibling
 print location_dd.string
@@ -44,7 +44,7 @@ print
 
 # Grab sponsors header and print
 sponsors_dt = summary_table.find("dt", text="Sponsor(s)")
-print sponsors_dt.string
+print sponsors_dt.string + ":"
 # Go over two tags to find sponsors contents
 sponsors_dd = sponsors_dt.next_sibling.next_sibling
 # Iterate over list of sponsors and print
@@ -60,4 +60,4 @@ print " ".join(full_status_td.stripped_strings)
 print
 
 # Print url
-print url
+print URL
