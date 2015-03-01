@@ -26,6 +26,10 @@ soup = BeautifulSoup(page)
 # We are going to ignore everything outside of the #main-content div
 main_content = soup.select("#main-content")[0]
 
+# Bill number
+bill_number = main_content.find("h1").string.strip()
+print bill_number
+
 # Bill description contained in the div .charge class
 description = main_content.select(".charge")[0].string
 print description
