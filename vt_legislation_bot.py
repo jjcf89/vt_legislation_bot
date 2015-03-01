@@ -13,8 +13,13 @@ def fetch_url(url):
 	f = opener.open(url)
 	return f.read()
 
+def fetch_example():
+	fd = open("Example.html")
+	return fd.read()
+
 # Get website
-page = fetch_url(URL)
+#page = fetch_url(URL)
+page = fetch_example()
 
 # Feed page into BeautifulSoup parser
 soup = BeautifulSoup(page)
