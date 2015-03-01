@@ -57,3 +57,7 @@ detailed_status_table = main_content.select("#bill-detailed-status-table")[0]
 # FULL STATUS is the fourth column of table
 full_status_td = detailed_status_table.find_all("td")[3]
 print " ".join(full_status_td.stripped_strings)
+print
+
+# Print url
+print url
