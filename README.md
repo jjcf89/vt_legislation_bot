@@ -40,12 +40,11 @@ Grab url, no css selector
 H.159
 An act relating to abandoned swimming pools
 
-Location
+Location:
 House Committee on General, Housing and Military Affairs
 
-Sponsor(s)
+Sponsor(s):
 Rep. Jim Masland
-
 Additional Sponsors
 Rep. Timothy Briglin
 
